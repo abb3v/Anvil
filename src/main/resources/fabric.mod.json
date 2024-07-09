@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "anvil",
+	"version": "${version}",
+	"name": "Anvil",
+	"description": "Anvil: Because Some Things Are Just Too Precious to Smash!",
+	"authors": [
+		"abb3v"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/anvil/",
+		"sources": "https://github.com/abb3v/Anvil"
+	},
+	"license": "GPL-2.0",
+	"icon": "assets/anvil/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"me.abb3v.Anvil"
+		],
+		"modmenu":[
+			"me.abb3v.AnvilClient"
+		]
+	},
+
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*",
+		"modmenu": "*",
+		"cloth-config2": ">=5.0.38"
+	}
+}
